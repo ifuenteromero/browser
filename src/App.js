@@ -6,11 +6,13 @@ import About from './components/About';
 import Home from './components/Home';
 
 function App() {
+  console.log(process.env)
+  console.log('hola')
   return (
     <div className="App">
         <Link to ="/about" > about </Link>
         <Link to ="/home" > home </Link>
-        actualizado?
+        actualizado 2.35
         <Route path ="/about" component ={About}/>
         <Route path = "/home" component = {Home} />
     </div>
