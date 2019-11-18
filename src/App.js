@@ -12,7 +12,7 @@ function App() {
     <div className="App">
         <Link to ="/about" > about </Link>
         <Link to ="/home" > home </Link>
-        actualizado 3.02
+        actualizado 3.13
         <Route path ="/about" component ={About}/>
         <Route path = "/home" component = {Home} />
     </div>
